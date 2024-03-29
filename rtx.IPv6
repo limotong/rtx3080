@@ -1,0 +1,43 @@
+enp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.27.92.26  netmask 255.255.192.0  broadcast 172.27.127.255
+        inet6 2001:da8:a801:69b2::e2e  prefixlen 128  scopeid 0x0<global>
+        inet6 2001:da8:a801:69b2:5921:c9eb:d64a:3241  prefixlen 64  scopeid 0x0<global>
+        inet6 2001:da8:a801:69b2:186a:b7f5:db72:44ff  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::a93c:dfcf:1188:704c  prefixlen 64  scopeid 0x20<link>
+        ether 98:29:a6:67:75:05  txqueuelen 1000  (Ethernet)
+        RX packets 48740  bytes 32414099 (32.4 MB)
+        RX errors 0  dropped 1762  overruns 0  frame 0
+        TX packets 32366  bytes 6553325 (6.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 35701  bytes 21752767 (21.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 35701  bytes 21752767 (21.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ 
+Tue Dec  5 16:25:32 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 525.147.05   Driver Version: 525.147.05   CUDA Version: 12.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  Off  | 00000000:01:00.0 Off |                  N/A |
+| N/A   51C    P8    N/A /  N/A |    122MiB /  2048MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      2359      G   /usr/lib/xorg/Xorg                 62MiB |
+|    0   N/A  N/A      7477    C+G   ...298173957695573157,262144       55MiB |
++-----------------------------------------------------------------------------+
